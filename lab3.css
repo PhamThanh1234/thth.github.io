@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper{
+    display:flex;
+}
+.options{
+    background: rgb(249,249,249);
+    box-shadow: 0 0.9px;
+}
+.options ul
+{
+    display:flex;
+}
+.options ul li{
+    padding:20px;
+    list-style: none;
+}
+.options ul li a{
+    color:blue;
+}
+.header{
+    padding:30px 10px;
+}
+.quick-link{
+    width:20%;
+}
+.quick-box{
+    margin: 30px;
+    border: 1px solid rgb(207, 189, 189);
+}
+.quick-button{
+    padding:10px;
+   border:1px solid rgb(207, 189, 189);
+   background: rgb(249,249,249);
+   font-size: 20px;
+   font-weight: 500;
+}
+.quick-button button{
+    width:20px;
+}
+.links{
+    padding:5px;
+}
+.links a{
+    padding:5px;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+.create{
+    width:80%;
+    margin:0px;
+}
+.create-pro{
+    border:1px solid rgb(207, 189, 189);
+}
+.create-box{
+    padding:10px;
+    border:1px solid rgb(207, 189, 189);
+    background: rgb(249,249,249);
+}
+.create-pro h2{
+    padding: 10px;
+}
+.create-box input{
+    margin-left:10px;
+}
+.create-box button i{
+    font-size: 24px;
+}
+table{
+    margin:20px;
+   
+}
+tbody {
+  
+    background: rgb(249, 249, 249);
+}
+tbody td{
+    padding:5px 10px;
+}
+thead th{
+    padding:5px 10px;
+    background: rgb(227, 225, 225);
+}
